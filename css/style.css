@@ -18,6 +18,9 @@ div:hover {
 h1 {
   font-family: 'Rock Salt', cursive;
   color: blue
+  text-transform: uppercase;
+  text-decoration: underline; 
+  /* I don't know why I'm getting this underlined as an error when code works */
 }
 
 input,
@@ -29,7 +32,7 @@ button {
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   padding: 5px 3px;
-  background-color: rgb(198, 150, 243);
+  background-color: rgb(184, 147, 218);
 }
 
 input {
@@ -40,10 +43,10 @@ button:hover {
   box-shadow: 0px 5px 5px #888888;
   padding: 5px;
   background-position: 100% 0;
-  moz-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  -moz-transition: all .4s ease-in-out;
   -o-transition: all .4s ease-in-out;
   -webkit-transition: all .4s ease-in-out;
-  transition: all .4s ease-in-out;
   color: blue;
   }
   
@@ -51,9 +54,9 @@ button:hover {
 ul {
   list-style: none;
   font-family: Arial, Helvetica, sans-serif;
-  color: rgb(199, 14, 223);
+  color: rgb(148, 92, 200);
 }
 
 li {
-  margin: 0 auto;
+  margin-right: 30px;
 }
